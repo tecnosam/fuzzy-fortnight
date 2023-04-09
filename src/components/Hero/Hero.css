@@ -1,0 +1,212 @@
+/* .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  position: relative;
+}
+
+.hero-image {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.hero-content {
+  width: 50%;
+  margin-left: 50%;
+  text-align: left;
+  padding: 40px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.btn-gold {
+  background-color: #f5a623;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-blue {
+  background-color: #20448f;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover,
+.btn-blue:hover {
+  transform: translateY(-5px);
+} */
+
+.containert {
+  /* position: absolute; */
+  width: 1122px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 105px;
+  /* padding-bottom: 191px; */
+  margin: 0 auto;
+  gap: 88px;
+}
+
+.heroLeft {
+  width: 430px;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroRight h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #20448f;
+}
+
+.heroRight h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+.heroRight-btn {
+  display: flex;
+  gap: 10px;
+  padding-top: 19px;
+}
+.btn-blue {
+  width: 243px;
+  height: 65px;
+  background: #20448f;
+  border: none;
+  color: white;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.btn-gold {
+  width: 243px;
+  height: 65px;
+  background: #ae8d2f;
+  border: none;
+  color: white;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  /* line-height: 28px; */
+}
+
+/* 
+@media (max-width: 767px) {
+  .containert {
+    flex-direction: column;
+  }
+  .heroLeft {
+    width: 430px;
+    height: 430px;
+  }
+  .heroRight {
+    align-items: center;
+    text-align: center;
+    width: 800px;
+  }
+  .heroRight h1 {
+    font-size: 100px;
+    padding-bottom: 150px;
+    line-height: 1.2;
+  }
+  .heroRight h2 {
+    font-size: 50px;
+    line-height: 1;
+    padding-bottom: 100px;
+  }
+  .heroRight-btn {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .btn-gold,
+  .btn-blue {
+    width: 500px;
+    height: 150px;
+    font-size: 50px;
+  }
+} */
+/* @media (min-width: 768px) and (max-width: 1199px) {
+  .heroRight {
+    width: 50%;
+  }
+  .heroRight h1 {
+    font-size: 80px;
+    padding-bottom: 120px;
+  }
+  .heroRight h2 {
+    font-size: 40px;
+    padding-bottom: 80px;
+  }
+  .btn-gold,
+  .btn-blue {
+    width: 400px;
+    height: 120px;
+    border-radius: 15px;
+    font-size: 40px;
+  }
+} */
+
+/* @media (min-width: 1200px) {
+  .heroRight {
+    width: 50%;
+  }
+  .heroRight h1 {
+    font-size: 100px;
+    padding-bottom: 150px;
+  }
+  .heroRight h2 {
+    font-size: 50px;
+    padding-bottom: 100px;
+  }
+  .btn-gold,
+  .btn-blue {
+    width: 500px;
+    height: 150px;
+    border-radius: 20px;
+    font-size: 50px;
+  }
+} */
+
+
