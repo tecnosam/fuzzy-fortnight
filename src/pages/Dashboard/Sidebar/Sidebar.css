@@ -1,0 +1,43 @@
+.sidebar {
+  width: 300px;
+  background: #20448f;
+  padding-top: 175px;
+  height: 100vh;
+}
+.tab-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tab-top p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.tab-top span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #f9dd7b;
+}
+.sidebar-tabs {
+  margin: 55px auto 0px auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sidebar-tabs p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  letter-spacing: 0.2px;
+  gap: 27px;
+  color: #ffffff;
+}

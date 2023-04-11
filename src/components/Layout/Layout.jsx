@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import "./Layout.css";
@@ -14,9 +14,13 @@ const Layout = ({
   buttonText,
   linktext,
 }) => {
-  const { SmallaLogo } = images();
+  const { SmallaLogo , view } = images();
   const navigate = useHistory();
+  const [type , setType] = useState('password')
 
+  const toggleEye = () =>{
+    setType(type ===  'password' ? 'text' : 'password')
+  }
   return (
     <>
       <div>
@@ -33,8 +37,9 @@ const Layout = ({
                 placeholder={usertype}
                 style={{ border: `3px solid ${color}` }}
               />
+              <img src={view} alt=""  onClick={toggleEye} />
               <input
-                type="text"
+                type={type}
                 placeholder="password"
                 style={{ border: `3px solid ${color}` }}
               />
@@ -44,7 +49,7 @@ const Layout = ({
             </div>
           </form>
           <div className="reset">
-            <span>{spantext}</span> &nbsp;
+            <span >{spantext}</span> &nbsp;
             <Link to={link} style={{ color: color }}>
               {" "}
               {linktext}{" "}

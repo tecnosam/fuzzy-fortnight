@@ -13,6 +13,9 @@ import tenth from "./Ellipse 18.svg";
 import eleven from "./Ellipse 19.svg";
 import twelve from "./Ellipse 20.svg";
 import thirteen from "./Ellipse 21.svg";
+import bell from "./bell.svg";
+import view from "./view.svg";
+import small from "./small.svg";
 
 export const images = () => {
   return {
@@ -31,5 +34,9 @@ export const images = () => {
     eleven,
     twelve,
     thirteen,
+    bell,
+    view,
+    small,
+
   };
 };
