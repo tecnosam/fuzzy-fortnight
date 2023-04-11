@@ -13,6 +13,7 @@ const Layout = ({
   usertype,
   buttonText,
   linktext,
+  redirect
 }) => {
   const { SmallaLogo , view } = images();
   const navigate = useHistory();
@@ -43,7 +44,7 @@ const Layout = ({
                 placeholder="password"
                 style={{ border: `3px solid ${color}` }}
               />
-              <button type="submit" style={{ background: color }}>
+              <button type="submit"  onClick={()=>navigate.push(redirect)}  style={{ background: color }}>
                 {buttonText}
               </button>
             </div>

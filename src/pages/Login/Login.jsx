@@ -14,6 +14,7 @@ const Login = () => {
         buttonText={'Sign in'}
         linktext={'Click here to register'}
         color={'#20448f'}
+        redirect={'/dashboard'}
     />
   </div>;
 };
