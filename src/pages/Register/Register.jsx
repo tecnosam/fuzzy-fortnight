@@ -10,7 +10,7 @@ const Register = () => {
         spantext={"Already registered"}
         link={"/login"}
         usertype={"Personal e-mail"}
-        buttonText={"Sign in"}
+        buttonText={"Sign up"}
         linktext={"Click here to login"}
         color={"#AE8D2F"}
         redirect={"/login"}
